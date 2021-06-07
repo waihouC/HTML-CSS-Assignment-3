@@ -1,0 +1,32 @@
+div{
+    width: 400px;
+    height: 400px;
+}
+
+.container{
+    width: 100vw !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#box1{
+    background-color: pink;
+}
+
+#box2{
+    background-color: salmon;
+}
+
+#box3{
+    background-color: red;
+}
+
+#box4{
+    background-color: brown;
+}
+
+#box5{
+    background-color: maroon;
+}

@@ -1,0 +1,33 @@
+div{
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: roll;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes roll {
+    0%{
+        top: 5%;
+        right: 5%;
+    }
+
+    30%{
+        top: 5%;
+        right: 85%;
+    }
+
+    60%{
+        top: 75%;
+        right: 85%;
+    }
+
+    100%{
+        top: 5%;
+        right: 5%;
+    }
+}
